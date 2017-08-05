@@ -1,0 +1,37 @@
+#### Menu types ####################################################
+#
+#   [main] is a special menu. Items here will appear in main menu
+#   [my menu] is a normal submenu with name "my menu"
+#
+#### Items #########################################################
+#
+#   Each item can have an icon, just use this rule (without spaces
+#   between the coma.
+#
+#     item = command,icon
+#
+#   If the command includes a coma, escape it with '\,'
+#     item = my\, command,icon
+#
+#   If no icon is defined, follow this rule: 
+#     item = command
+#
+
+
+# Example:
+#
+# Main Menu:
+#   Item 1 (with icon 1)
+#   Item 2 (without icon)
+#   Submenu 1:
+#     Item 3 (without icon)
+#     Item 4 (with icon 2)
+#
+
+[main]
+			[Bildirim]
+			Bildirim Merkezi = bildirim-merkezi.sh,/usr/share/icons/hicolor/16x16/apps/classviewer-method.png
+			Bildirim Sayısı = bildirim-sayisi.sh,/usr/share/icons/hicolor/16x16/apps/classviewer-method.png
+
+
+

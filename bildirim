@@ -1,0 +1,1 @@
+gtrayicon --activate "./bildirim.py" --deactivate  "pkill -9 -f bildirim.py" --menu-file=bildirim.menu --activated --tooltip="Bildirim-Sunucu"
